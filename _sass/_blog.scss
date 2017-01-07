@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,700|Neuton:300');
+
+/* Fonts */
+$font-body: 'Lato', sans-serif;
+$headerfont: 'Neuton', serif;
+
+/* Colors */
+$swisscoffee: #D5C9C8;
+$maintext: #333;
+$mainlinks: #fff;
+$dustygray: #999;
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    /* Set your content font stack here: */
+    font-family: $font-body;
+}
+
+a {
+    text-decoration: none;
+    color: lighten($maintext, 25%);
+}
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+      font-family: $headerfont;
+      font-weight: 300;
+    }
+
+h3 {
+    font-weight: 100;
+}
+
+/* LAYOUT CSS */
+.pure-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+#layout {
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    top: auto;
+    margin: 3em auto;
+}
+
+.sidebar {
+    background: $swisscoffee;
+    color: $maintext;
+}
+
+.brand-title,
+.brand-tagline {
+    margin: 0;
+    text-transform: lowercase;
+}
+.brand-title {
+    text-transform: capitalize;
+}
+
+.brand-title a {
+  text-decoration: none;
+  color: $maintext;
+}
+
+.brand-title a:hover {
+  text-decoration: underline;
+}
+
+.brand-tagline {
+    font-weight: 300;
+    color: lighten($maintext, 5.5%);
+    font-size: 85%;
+}
+
+.nav-list {
+    margin: 0;
+    padding: 5px;
+    list-style: none;
+}
+.nav-item {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    padding-right: 10px;
+}
+.nav-item a {
+    background: transparent;
+    border: none;
+    color: $mainlinks;
+    margin-top: 1em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-size: 85%;
+}
+.nav-item a:hover,
+.nav-item a:focus {
+    text-decoration: underline;
+}
+
+.content-subhead {
+    text-transform: uppercase;
+    font-family: $font-body;
+    color: #aaa;
+    border-bottom: 1px solid #eee;
+    padding: 0.4em 0;
+    font-size: 80%;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.content {
+    padding: 2em 1em 0;
+}
+
+.post {
+    padding-bottom: 2em;
+}
+
+.post-title a {
+  color: $font-body;
+}
+
+.post-title a:hover {
+  text-decoration: underline;
+}
+
+.post-avatar {
+    border-radius: 50px;
+    float: right;
+    margin-left: 1em;
+}
+.post-description {
+    font-family: $font-body;
+    font-size: 90%;
+    color: #444;
+    line-height: 1.8em;
+}
+.post-meta {
+    color: $dustygray;
+    font-size: 85%;
+    margin: 0;
+}
+
+.post-category {
+    background-color: none;
+    margin: 0 0.1em;
+    padding: 0.1em;
+    color: lighten($dustygray, 20%);
+    font-size: 80%;
+}
+
+.post-images {
+    margin: 1em 0;
+}
+.post-image-meta {
+    margin-top: -3.5em;
+    margin-left: 1em;
+    color: #fff;
+    text-shadow: 0 1px 1px #333;
+}
+
+.footer {
+    text-align: center;
+    padding: 1em 0;
+}
+.footer a {
+    color: #ccc;
+    font-size: 80%;
+}
+.footer .pure-menu a:hover,
+.footer .pure-menu a:focus {
+    background: none;
+}
+
+@media (min-width: 48em) {
+    .content {
+        padding: 2em 3em 0;
+        margin-left: 25%;
+    }
+
+    .header {
+        margin: 80% 2em 0;
+        text-align: right;
+    }
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+}

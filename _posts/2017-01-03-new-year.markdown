@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "2017."
+date:   2017-01-03 10:53
+categories: web development, career
+tags: goals, web development, career
+---
+
+Three days into 2017. Thinking a lot about goals and where I would like to take myself. I graduated school in December. I don't have a job right now. I'm doing a lot of sub-par development projects trying to pass myself off as a freelance developer. Not happy where I'm at, but I am somewhat confident about where I'll be in the future.
+
+I think in my perfect web development career world, I would be able to spin up amazing looking websites with HTML, CSS, and Javascript from scratch and then be able to utilize things like Sass, CSS frameworks, jQuery, and project managers. Utilize but not rely on. And then even be able to do some backend with like PHP or Node.js. Learning ReactJS would be cool, but it's kind of last on my list of things to learn.
+
+I utilize a lot of these things now but I am lacking a fundamental knowledge of a lot of things, including Javascript. My biggest weakness. I can USE Javascript, but I can't write my own, and I don't fully understand the Javascript I do use. Same with PHP, only worse, but at least PHP is a backend language. I should know Javascript.
+
+So, I have sort of a to-learn list here for becoming a better web developer in 2017. It's in a general order, from top priority down.
+
+1. Learn Javascript fundamentals. Be able to understand it. Be able to write my own from scratch and understand what I'm writing.
+2. Write more organized code. I can get pretty messy when I'm coding. Use the right hierarchy, use labels. And do this WHILE I'm coding, so I don't have to go back through and do it and wonder what the hell this code is even supposed to be for.
+3. Solidify HTML & CSS knowledge. Mostly this will involve more organized coding.
+4. Continue utilizing Sass and learning the ins and outs of it. I love using it and try to use it with every project, so this won't be too difficult.
+5. Get better at GitHub and doing stuff from the terminal.
+6. Find a project manager workflow I like and use it.
+7. Learn ES6.
+8. Understand PHP. At the least. Just understand the damn thing.
+9. Get into Node.js.
+10. If I can do all of this by the end of the year, then I might start learning ReactJS. Maybe.
+
+!! There's my web development to-learn list. Not too crazy, right? That's a ton of learning though, but I am actually really looking forward to it. Honestly, if I can get numbers 1-6 down pat this year, I will be happy. I mean that's acceptable for a full-time job somewhere, and ultimately that's the goal. That, or freelancing... a post for another day.
+
+Happy 2017.
